@@ -1,0 +1,5 @@
+minimum=lambda x,y,z : x if x<y and x<z else(y if y<z else z) 
+a=int(input("enter the first number here : "))
+b=int(input("enter the second number here : "))
+c=int(input("enter the third number here : "))
+print(minimum(a,b,c))
